@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      
+      <a class="brand" href="" data-i18n="siteTitle">Профессиональный лицей №12</a>
+      
+      <div class="top-tools">
+        <div class="socials" aria-label="Social media">
+          <a href="#" class="social" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="http://instagram.com/prof.l12/" class="social" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn active" type="button" data-lang="ru">Ru</button>
+          <button class="lang-btn" type="button" data-lang="kg">Kg</button>
+        </div>
+
+        <label class="search-box" aria-label="Search">
+          <input type="text" placeholder="Поиск" />
+          <button class="search-btn" type="button" aria-label="Search button">⌕</button>
+        </label>
+      </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Main menu">
+      <a href="#" data-i18n="nav.home">Главная</a>
+      <div class="nav-item">
+        <a href="#" data-i18n="nav.department">Отделение</a>
+        <div class="dropdown-menu">
+          <a href="#" data-i18n="nav.department.center">Центр передового опыта</a>
+          <a href="#" data-i18n="nav.department.humanities">Отделение гуманитарно-педагогических специальностей</a>
+          <a href="#" data-i18n="nav.department.technical">Отделение технических специальностей</a>
+          <a href="#" data-i18n="nav.department.retraining">Отделение повышения и переквалификации преподавателей</a>
+        </div>
+      </div>
+      <a href="#" data-i18n="nav.international">Международные связи</a>
+      <a href="#" data-i18n="nav.contacts">Контакты</a>
+      <a href="#" data-i18n="nav.about">Сми о нас</a>
+      <a href="#" data-i18n="nav.college">Лицей</a>
+    </nav>
+
+    <main class="content">
+      <aside class="left-menu" aria-label="Sidebar menu">
+        <ul>
+          <li><a href="#" data-i18n="sidebar.license">Лицензия, сертификаты</a></li>
+          <li><a href="#" data-i18n="sidebar.staff">Сотрудники</a></li>
+          <li><a href="#" data-i18n="sidebar.history">История</a></li>
+          <li><a href="#" data-i18n="sidebar.admission">Абитуриент</a></li>
+          <li><a href="#" data-i18n="sidebar.engineering">Инженерно-педагогический состав</a></li>
+          <li><a href="#" data-i18n="sidebar.accreditation">Аккредитация</a></li>
+          <li><a href="#" data-i18n="sidebar.normdocs">Нормативные документы</a></li>
+          <li><a href="#" data-i18n="sidebar.mtb">МТБ</a></li>
+          <li><a href="#" data-i18n="sidebar.students">Учащимся</a></li>
+        </ul>
+      </aside>
+
+      <section class="hero-wrap">
+        <div class="slider" aria-label="Slideshow">
+          <div class="slides">
+            <div class="slide active" style="background-image: url('...');"></div>
+            <div class="slide" style="background-image: url('...');"></div>
+            <div class="slide" style="background-image: url('...');"></div>
+          </div>
+
+          <div class="slider-dots" aria-label="Slide navigation">
+            <button class="dot active" type="button" aria-label="Slide 1"></button>
+            <button class="dot" type="button" aria-label="Slide 2"></button>
+            <button class="dot" type="button" aria-label="Slide 3"></button>
+          </div>
+        </div>
+
+        <!-- <div class="hero-banner" data-i18n="heroBanner">...</div> -->
+      </section>
+
+      <section class="news-section" aria-label="Новости">
+        <div class="news-col">
+          <h2 class="section-title" data-i18n="news.title">Новости</h2>
+          <div class="news-grid">
+            <article class="news-card">
+              <img src="..." alt="" />
+              <div class="news-card-caption" data-i18n="news.item1.caption">...</div>
+              <div class="news-meta"><span>👁 161</span><span>📅 2026-01-01</span></div>
+            </article>
+            <article class="news-card">
+              <img src="..." alt="" />
+              <div class="news-card-caption" data-i18n="news.item2.caption">...</div>
+              <div class="news-meta"><span>👁 129</span><span>📅 2026-01-01</span></div>
+            </article>
+            <article class="news-card">
+              <img src="..." alt="" />
+              <div class="news-card-caption" data-i18n="news.item3.caption">...</div>
+              <div class="news-meta"><span>👁 113</span><span>📅 2026-01-01</span></div>
+            </article>
+            <article class="news-card">
+              <img src="..." alt="" />
+              <div class="news-card-caption" data-i18n="news.item4.caption">...</div>
+              <div class="news-meta"><span>👁 143</span><span>📅 2026-01-01</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <aside class="right-panel" aria-label="Director panel">
+        <div class="director-card">
+          <img src="..." alt="Director" />
+          <div class="director-name">
+            <div data-i18n="directorLabel">Директор</div>
+            <div data-i18n="directorName">Калмаматов Бакалбай Айтиевич</div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="right-panel-cols">
+          <aside class="side-col announcements-col" aria-label="Объявления">
+            <h2 class="section-title" data-i18n="announcements.title">Объявления</h2>
+            <ul class="announce-list">
+              <li class="announce-item">
+                <div class="announce-date"><span>📅 2026-01-01</span><span>👁 0</span></div>
+                <a href="#" data-i18n="announcements.item1">...</a>
+              </li>
+              <li class="announce-item">
+                <div class="announce-date"><span>📅 2026-01-01</span><span>👁 0</span></div>
+                <a href="#" data-i18n="announcements.item2">...</a>
+              </li>
+              <li class="announce-item">
+                <div class="announce-date"><span>📅 2026-01-01</span><span>👁 0</span></div>
+                <a href="#" data-i18n="announcements.item3">...</a>
+              </li>
+              <li class="announce-item">
+                <div class="announce-date"><span>📅 2026-01-01</span><span>👁 0</span></div>
+                <a href="#" data-i18n="announcements.item4">...</a>
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="side-col media-col" aria-label="Фотоальбомы и видеозаписи">
+            <h2 class="section-title" data-i18n="media.title">Фотоальбомы</h2>
+            <div class="media-list">
+              <a class="media-item" href="#">
+                <div class="media-thumb"><img src="..." alt="" /><span class="media-icon"></span></div>
+                <div class="media-caption" data-i18n="media.item1.caption">...</div>
+              </a>
+              <a class="media-item" href="#">
+                <div class="media-thumb"><img src="..." alt="" /><span class="media-icon"></span></div>
+                <div class="media-caption" data-i18n="media.item2.caption">...</div>
+              </a>
+            </div>
+
+            <h3 class="section-subtitle" data-i18n="media.videoTitle">Видеозаписи</h3>
+            <div class="media-list video-list">
+              <a class="media-item" href="#">
+                <div class="media-thumb video"><span class="media-icon"></span></div>
+                <div class="media-caption" data-i18n="media.video1.caption">...</div>
+              </a>
+            </div>
+          </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-col">
+        <div class="footer-icon">🗺</div>
+        <h3 class="footer-title" data-i18n="footer.contactsTitle">Контакты</h3>
+        <div class="footer-text">
+          <p data-i18n="footer.address1">Кыргызстан, 723500, г. Ош,</p>
+          <p data-i18n="footer.address2">ул. Осконалиева, 1,</p>
+          <p data-i18n="footer.address3">Профессиональный лицей №12</p>
+          <p data-i18n="footer.address4">Ошского Государственного университета</p>
+          <p data-i18n="footer.dept">Общий отдел: ...</p>
+          <p data-i18n="footer.fax">факс ...</p>
+          <p>...</p>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-icon">📰</div>
+        <h3 class="footer-title" data-i18n="footer.pressTitle">Пресс-служба</h3>
+        <div class="footer-text">
+         
+          <p data-i18n="footer.address1">Кыргызстан, 723500, г. Ош,</p>
+          <p data-i18n="footer.address2">ул. Осконалиева, 1,</p>
+          <p data-i18n="footer.address3">Профессиональный лицей №12</p>
+          <p data-i18n="footer.address4">Ошского Государственного университета</p>
+          <p data-i18n="footer.dept">Общий отдел: ...</p>
+          <p data-i18n="footer.fax">факс ...</p>
+          <p>...</p>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-icon">🎓</div>
+        <h3 class="footer-title" data-i18n="footer.admissionTitle">Приемная комиссия</h3>
+        <div class="footer-text">
+       
+          <p data-i18n="footer.address1">Кыргызстан, 723500, г. Ош,</p>
+          <p data-i18n="footer.address2">ул. Осконалиева, 1,</p>
+          <p data-i18n="footer.address3">Профессиональный лицей №12</p>
+          <p data-i18n="footer.address4">Ошского Государственного университета</p>
+          <p data-i18n="footer.dept">Общий отдел: ...</p>
+          <p data-i18n="footer.fax">факс ...</p>
+          <p>...</p>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        <p data-i18n="footer.info1">Ошский Государственный Университет</p>
+        <p data-i18n="footer.info2">Официальный сайт</p>
+        <p data-i18n="footer.info3">Профессиональный лицей №12</p>
+      </div>
+    </footer>
+  </div>
+
+
+
+      <script src="js/script.js"></script>  
+</body>
+</html>
